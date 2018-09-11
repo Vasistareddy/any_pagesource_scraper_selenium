@@ -13,6 +13,7 @@ docker build . -t selenium:pagesource
 
 docker run -p 5056:5056 --env DISPLAY=:10 -d selenium:pagesource
 
+## - This will make docker to run in detached mode
 
 # endpoint
 
