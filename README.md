@@ -2,7 +2,7 @@
 Extract pagesource/html through selenium webdriver with get request of Flask API
 
 # guide for the docker installation @digitalocean
-	- https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 
 # Build the docker
 
@@ -12,8 +12,7 @@ docker build . -t selenium:pagesource
 # Run the docker
 
 docker run -p 5056:5056 --env DISPLAY=:10 -d selenium:pagesource
-
-## - This will make docker to run in detached mode
+	This will make docker to run in detached mode
 
 # endpoint
 
